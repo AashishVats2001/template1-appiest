@@ -4,20 +4,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "var(--color-primary)",
-        secondary: "var(--color-secondary)",
-        accent: "var(--color-accent)",
-
-        success: "var(--color-success)",
-        warning: "var(--color-warning)",
-        error: "var(--color-error)",
-        info: "var(--color-info)",
-
-        text: "var(--color-text)",
-        muted: "var(--color-muted)",
-        border: "var(--color-border)",
-        background: "var(--color-background)",
-        surface: "var(--color-surface)",
+        primary: '#00bade',
+        secondary: '#3e4555',
+        accent: '#eaeff3',
+        muted: '#8d97ad',
+        background: '#ffffff',
+        surface: '#f9fafb',
+        text: '#3e4555',
+        'text-secondary': '#ffffff',
+        info: '#368aee',
+        success: '#10b981',
+        warning: '#facc15',
+        error: '#ef4444',
       },
     },
   },

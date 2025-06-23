@@ -2,19 +2,14 @@
 
 @theme {
   --color-primary: #00bade;
-  /* Blue */
-  --color-secondary: #4a77f4;
-  /* Purple */
+  --color-secondary: #3e4555;
   --color-accent: #eaeff3;
-  /* Amber */
 
-  /* Semantic Colors */
   --color-success: #10b981;
   --color-warning: #facc15;
   --color-error: #ef4444;
-  --color-info: #3b82f6;
+  --color-info: #368aee;
 
-  /* Neutrals */
   --color-text: #3e4555;
   --color-text-secondary: #FFFFFF;
   --color-muted: #8d97ad;
@@ -27,10 +22,8 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #FFFF;
+  background-color: #FFFFFF;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -46,10 +39,22 @@
 }
 
 .section-title {
-  border-radius: calc(infinity * 1px);
-  padding-block: calc(var(--spacing) * 1);
-  padding-inline: calc(var(--spacing) * 3);
-  font-size: var(--text-sm);
-  line-height: var(--tw-leading, var(--text-sm--line-height));
-  color: var(--color-text-secondary)
+  color: var(--color-text-secondary);
+  @apply rounded-full px-3 py-1 text-sm;
 }
+
+/* Pricing Section */
+.plan-list > li::before{
+  font-family: 'Font Awesome 6 Free';
+  content: '\f058';
+  @apply font-black me-2.5 antialiased;
+}
+
+.pricing-info-list > li::before{
+  font-family: 'Font Awesome 6 Free';
+  content: '\f058';
+  color: var(--color-info);
+  @apply font-black me-2.5 antialiased;
+}
+
+/* Team Member */
