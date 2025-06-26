@@ -27,8 +27,9 @@ menuToggle.addEventListener("click", () => {
 // Logo scaling on scroll up
 window.addEventListener("scroll", () => {
   const scrollTop = window.scrollY;
+  console.log(scrollTop);
 
-  if (scrollTop > 0) {
+  if (scrollTop > 100) {
     logo.style.height = "44px";
   } else {
     logo.style.height = "64px";
@@ -37,7 +38,7 @@ window.addEventListener("scroll", () => {
 
 // Optional: reset on resize
 window.addEventListener("resize", () => {
-  if (window.innerWidth >= 768) {
+  if (window.innerWidth >= 1024) {
     navLinks.style.maxHeight = "none";
   } else {
     navLinks.style.maxHeight = "0px";
