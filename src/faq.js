@@ -2,39 +2,29 @@
 
 const faqs = {
   1: {
-    question: "How can I download my photo?",
+    question: "Which blockchains does HexaPay support?",
     answer:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered altion in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator.",
+      "HexaPay currently supports Ethereum, Binance Smart Chain (BSC), Solana, Polygon, Avalanche, and Tron, with more chains being added regularly.",
   },
   2: {
-    question: "How can I purchase a premium plan?",
+    question: "Is HexaPay custodial or non-custodial?",
     answer:
-      "Go to the Pricing section, choose a plan, and follow the payment instructions. Access is granted immediately.",
+      "HexaPay is a non-custodial platform. You retain full control of your funds at all times, and we never store your private keys.",
   },
   3: {
-    question: "How do you delete pictures created in the app?",
+    question: "How do I integrate HexaPay into my website or app?",
     answer:
-      "Head to the 'My Creations' section, long-press the image you want to delete, then select the delete option.",
+      "You can use our REST APIs, JavaScript SDK, or prebuilt plugins for platforms like Shopify and WooCommerce. Integration guides are available in our developer docs.",
   },
   4: {
-    question: "The saved photos are not showing up correctly in the album.",
+    question: "Can I receive payments in stablecoins?",
     answer:
-      "Check app permissions for storage. Try restarting the app or clearing cache in settings.",
+      "Yes. HexaPay supports stablecoins like USDT, USDC, and BUSD on supported chains. You can also auto-convert incoming tokens to stablecoins (coming soon).",
   },
   5: {
-    question: "How to turn off the notification message from the app?",
+    question: "Do I need KYC to use HexaPay?",
     answer:
-      "Open app settings > Notifications, and turn off the messages you don’t want. You can also adjust system-wide settings.",
-  },
-  6: {
-    question: "Why can't I upload my photos?",
-    answer:
-      "Ensure you're connected to the internet, and that photo size and format are supported by the app.",
-  },
-  7: {
-    question: "How do I get started with the app?",
-    answer:
-      "Download the app, sign up or log in, and follow the short onboarding guide to get started.",
+      "Basic wallet-to-wallet payments don’t require KYC. KYC is only needed for fiat conversion, enterprise plans, or regulated jurisdictions.",
   },
 };
 

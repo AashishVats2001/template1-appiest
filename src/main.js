@@ -54,13 +54,20 @@ scroll(animate(heroBg, { y: [-400, 1500] }, { ease: "easeOut" }), {
 // About Numbers Animation
 let hasAnimated = false;
 
-function animateCount(id, start, end, prefix = "") {
+function animateCount(id, start, end, suffix = "", round = true) {
   const number = document.getElementById(id);
   animate(start, end, {
     duration: 1.5,
-    ease: [0.6, -0.28, 0.735, 0.045],
+    ease: [0.6, 0.28, 0.735, 0.045],
     onUpdate: (value) => {
-      number.innerHTML = prefix + Math.round(value).toLocaleString();
+      if(round){
+
+        number.innerHTML = Math.round(value).toLocaleString() + suffix;
+      }
+      else {
+        number.innerHTML = value.toLocaleString() + suffix;
+
+      }
     },
   });
 }
@@ -68,10 +75,10 @@ inView("#stats", () => {
   if (hasAnimated) return;
   hasAnimated = true;
 
-  animateCount("count-download", 100000, 2100000);
-  animateCount("count-photo", 500000, 5053120);
-  animateCount("count-country", 0, 108);
-  animateCount("count-user", 100, 100000, "+");
+  animateCount("count-transaction", 0, 120000, "+");
+  animateCount("count-crypto", 0, 75, "+");
+  animateCount("count-api", 0, 99.9, '%', false);
+  animateCount("count-wallet", 0, 40000, "+");
 });
 
 // Features Section
