@@ -9,8 +9,8 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Appiest Template</title>
-  <script type="module" crossorigin src="/template1-appiest/assets/index-B3Kxqfph.js"></script>
-  <link rel="stylesheet" crossorigin href="/template1-appiest/assets/index-CLrpofeP.css">
+  <script type="module" crossorigin src="/template1-appiest/assets/index-DFwN-8K8.js"></script>
+  <link rel="stylesheet" crossorigin href="/template1-appiest/assets/index--B-Ri74l.css">
 </head>
 
 <body>
@@ -18,43 +18,41 @@
     <!-- Nav -->
     <nav class="w-full flex main-gradient justify-center items-center z-50 fixed">
       <div class="w-10/12 max-w-[1110px] flex justify-between items-center gap-2 py-4">
-        <img id="nav-logo" src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/logo.png"
-          alt="Logo" class="transition-all duration-300" style="height: 64px;" />
-
+        <img id="nav-logo" src="logo.png" alt="Logo" class="transition-all duration-300 brightness-95"
+          style="height: 64px" />
 
         <!-- Links -->
-
+        <!-- Desktop Nav -->
         <div class="gap-4 text-sm uppercase font-medium justify-center items-center max-lg:hidden">
-          <div class="w-10/12 flex gap-y-4 gap-x-4 pb-0 items-center
-              flex-row  justify-between
-              *:not-last:text-text-secondary *:not-last:hover:text-text *:transition-all">
+          <div
+            class="w-10/12 flex gap-y-4 gap-x-5 pb-0 items-center flex-row justify-between text-nowrap *:not-last:text-text-secondary *:not-last:hover:text-text *:transition-all">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#features">Features</a>
             <a href="#pricing">Pricing</a>
             <a href="#testimonial">Testimonial</a>
-            <a href="/">Login/Signup</a>
-            <a href="/">Pages</a>
-            <button class="py-2 px-4 text-secondary bg-background rounded-full cursor-pointer">
+            <a href="#team">Team</a>
+            <a href="#whyus">Why Us</a>
+            <button class="py-2 px-5 text-secondary bg-background rounded-full cursor-pointer">
               Download
             </button>
           </div>
         </div>
 
-        <div id="nav-links" class="absolute top-full left-0 right-0 overflow-hidden z-20 w-full lg:hidden
-         gap-4 text-sm uppercase font-medium justify-center items-center  main-gradient
-         transition-all duration-500 ease-in-out" style="max-height: 0px;">
+        <!-- Mobile Nav -->
 
-          <div class="w-10/12 mx-auto flex  gap-y-4 gap-x-4 pb-4 lg:pb-0 items-start 
-              flex-col justify-between
-              *:not-last:text-text-secondary *:not-last:hover:text-text *:transition-all">
+        <div id="nav-links"
+          class="absolute top-full left-0 right-0 overflow-hidden z-20 w-full lg:hidden gap-4 text-sm uppercase font-medium justify-center items-center main-gradient transition-all duration-500 ease-in-out"
+          style="max-height: 0px">
+          <div
+            class="w-10/12 mx-auto flex gap-y-4 gap-x-4 pb-4 lg:pb-0 items-start flex-col justify-between *:not-last:text-text-secondary *:not-last:hover:text-text *:transition-all">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#features">Features</a>
             <a href="#pricing">Pricing</a>
             <a href="#testimonial">Testimonial</a>
-            <a href="/">Login/Signup</a>
-            <a href="/">Pages</a>
+            <a href="#team">Team</a>
+            <a href="#whyus">Why Us</a>
             <button class="py-2 px-4 text-secondary bg-background rounded-full cursor-pointer">
               Download
             </button>
@@ -64,40 +62,41 @@
         <button id="menu-toggle" class="lg:hidden text-3xl text-white">
           <i class="fa-solid fa-bars"></i>
         </button>
-
       </div>
     </nav>
 
     <!-- Hero  -->
-    <section class="w-full flex justify-center main-gradient pt-28 relative" id="home">
+    <section class="w-full flex justify-center main-gradient pt-24 relative" id="home">
       <div id="parallax-section"
         class="w-11/12 md:w-10/12 max-w-[1110px] flex justify-center items-center relative overflow-hidden -mb-[140px] rounded-lg">
         <!-- Banner -->
         <div
-          class="absolute inset-0 h-[135%] w-full translate-y-[35%] lg:translate-y-[45%] will-change-transform bg-cover bg-center bg-[url('https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/header-bg.jpg')]"
-          id="parallax-bg">
-        </div>
+          class="absolute inset-0 h-[135%] w-full translate-y-[35%] lg:translate-y-[45%] will-change-transform bg-cover bg-center bg-[url('hero-banner.png')]"
+          id="parallax-bg"></div>
 
         <!-- Overlay to darken background -->
         <div class="absolute inset-0 bg-black/20 z-[1]"></div>
 
         <!-- Content -->
         <div
-          class="relative z-10 flex flex-col lg:flex-row justify-center items-center gap-6 w-11/12 py-20 px-10 mx-auto text-white">
-          <div class="flex flex-col gap-4">
+          class="relative z-10 flex flex-col lg:flex-row justify-center items-center gap-6 w-full py-20 md:px-12 mx-auto text-white">
+          <div class="flex flex-col gap-4 box-border px-5 pb-5">
             <h1 class="text-3xl md:text-4xl lg:text-5xl font-semibold">
-              You capture the moments, We add the magic.
+              Secure Multi-Chain Payments, Simplified
             </h1>
-            <p class="font-medium">
-              Labore et dolore magna aliqua. Ut enim veniam, exercitation ullamco laboris commodo.
+            <p class="font-medium text-balance">
+              HexaPay empowers individuals and businesses to accept, send, and manage crypto payments across multiple
+              blockchains — instantly and securely.
             </p>
           </div>
-          <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/header.png" alt=""
-            class="" />
+          <div class="flex justify-center items-center gap-10">
+
+            <img src="mobile-mockup-1.png" alt="Mobile Mockup" class="max-h-[400px]" />
+            <!-- <img src="mobile-mockup-2.png" alt="Mobile Mockup" class="max-h-[400px] max-md:hidden" /> -->
+          </div>
         </div>
       </div>
     </section>
-
 
     <!-- About -->
     <div class="w-full flex justify-center items-center pt-[240px] pb-16 lg:py-[240px]">
@@ -105,105 +104,105 @@
         class="flex flex-col lg:flex-row w-11/12 md:2-10/12 max-w-[1110px] justify-center items-center lg:items-stretch gap-6"
         id="about">
         <div class="flex flex-col justify-around gap-10">
-
           <!-- About Title -->
           <div class="flex flex-col gap-2 text-secondary items-start">
-            <span class="main-gradient font-semibold section-title">APP INTRO</span>
-            <h2 class="text-3xl font-bold">About us</h2>
+            <span class="main-gradient font-semibold section-title">About Us</span>
+            <h2 class="text-3xl font-bold">What is Hexapay?</h2>
           </div>
 
           <!-- Description -->
           <div class="flex flex-col gap-7 text-muted text-balance">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy
-              text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              HexaPay is a next-generation multi-chain payment gateway built for the decentralized economy. We enable
+              individuals, startups, and enterprises to send, receive, and manage crypto payments with unmatched speed
+              and security — across all major blockchains.
             </p>
             <p>
-              It is a long established fact that a reader will be distracted
-              by the readable content of a page when looking at its layout.
-              The point of using Lorem Ipsum is that it has a more-or-less
-              normal distribution.
+              Our platform bridges the gap between crypto and real-world usability by offering seamless integrations,
+              developer-first APIs, and a powerful dashboard that makes crypto payments as intuitive as traditional
+              methods.
+            </p>
+            <p>
+              Whether you're an online store, SaaS company, freelancer, or DeFi platform — HexaPay empowers you to
+              accept payments globally, reduce fees, and transact with confidence.
             </p>
           </div>
 
           <!-- Stats -->
           <div id="stats"
-            class="grid grid-cols-1 md:grid-cols-2 gap-10 bg-accent justify-between items-center px-6 py-6 lg:translate-x-20">
+            class="grid grid-cols-1 md:grid-cols-4 gap-10 bg-accent justify-between items-center px-6 py-6 lg:translate-x-20">
             <div class="flex flex-col justify-evenly items-center text-muted gap-1">
-              <i class="fa-solid fa-download text-primary text-4xl"></i>
+              <i class="fa-solid fa-file-invoice text-primary text-4xl"></i>
               <p class="text-xl font-bold text-secondary opacity-80 hover:opacity-100 transition-all mt-2"
-                id="count-download">
-                2,100,000
+                id="count-transaction">
+                120,000
               </p>
-              <p class="text-xs">Apps Downloaded</p>
+              <p class="text-xs">Transactions Processed</p>
             </div>
             <div class="flex flex-col justify-evenly items-center text-muted gap-1">
-              <i class="fa-solid fa-camera text-primary text-4xl"></i>
+              <i class="fa-brands fa-bitcoin text-primary text-4xl"></i>
               <p class="text-xl font-bold text-secondary opacity-80 hover:opacity-100 transition-all mt-2"
-                id="count-photo">
-                5,053,120
+                id="count-crypto">
+                75
               </p>
-              <p class="text-xs">Photo Generated</p>
+              <p class="text-xs">Supported Crypto</p>
             </div>
             <div class="flex flex-col justify-evenly items-center text-muted gap-1">
-              <i class="fa-solid fa-flag text-primary text-4xl"></i>
+              <i class="fa-solid fa-globe text-primary text-4xl"></i>
               <p class="text-xl font-bold text-secondary opacity-80 hover:opacity-100 transition-all mt-2"
-                id="count-country">
-                108
+                id="count-api">
+                99.99
               </p>
-              <p class="text-xs">Countries users</p>
+              <p class="text-xs">API Uptime</p>
             </div>
             <div class="flex flex-col justify-evenly items-center text-muted gap-1">
               <i class="fa-solid fa-user text-primary text-4xl"></i>
               <p class="text-xl font-bold text-secondary opacity-80 hover:opacity-100 transition-all mt-2"
-                id="count-user">
-                +100,000
+                id="count-wallet">
+                40,000
               </p>
-              <p class="text-xs">Daily New Users</p>
+              <p class="text-xs">Active Wallets</p>
             </div>
           </div>
         </div>
 
-        <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/about.jpg" alt="About Us"
-          class="" />
+        <img src="banner-2.png" alt="About Us" class="w-full lg:max-w-[400px] object-cover" />
       </div>
     </div>
 
     <!-- Features -->
     <div class="flex flex-col w-full gap-10 justify-center items-center">
-
       <!-- Banner -->
       <div id="parallax-section-2"
         class="w-full flex max-h-[300px] h-[25vw] min-h-[200px] justify-center items-center relative overflow-hidden">
         <div id="parallax-bg-2"
-          class="absolute inset-0 h-[300%] -translate-y-[50%] w-full will-change-transform bg-cover bg-center bg-no-repeat bg-[url('https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/main-feature-bg.jpg')]">
+          class="absolute inset-0 h-[200%] brightness-75 -translate-y-[80%] lg:-translate-y-[60%] w-full will-change-transform bg-cover bg-center bg-no-repeat bg-[url('banner-main.jpg')]">
         </div>
 
         <div
           class="w-10/12 max-w-[1110px] z-10 flex justify-between text-2xl md:text-4xl lg:text-5xl font-bold text-balance">
           <div class="w-4/12 hidden lg:block"></div>
           <h2 class="lg:w-8/12 text-wrap text-secondary-secondary">
-            Create your own brand with your <br> own photo and your story
+            Spend or withdraw earnings locally without switching platforms
           </h2>
         </div>
       </div>
 
-
-      <div class="w-11/12 md:w-10/12 max-w-[1110px] flex flex-col md:flex-row max-md:items-center justify-center">
-        <div class="md:w-3/12 lg:w-4/12 z-10 flex">
-          <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/feature.png" alt=""
-            class="lg:-mt-[50%]" />
+      <div class="w-11/12 md:w-10/12 max-w-[1110px] flex flex-col gap-5 md:flex-row max-md:items-center justify-center">
+        <div class="md:w-3/12 lg:w-4/12 z-10 flex max-md:justify-center">
+          <img src="mobile-mockup-2.png" alt="" class="lg:-mt-[50%] max-w-[200px] w-3/4 object-contain" />
         </div>
-        <div class="w-full md:w-8/12 flex flex-col md:items-start justify-start gap-10 text-muted font-normal">
+        <div class="w-full md:w-8/12 flex flex-col md:items-start justify-center md:justify-start gap-10 text-muted font-normal">
           <p>
-            There are many variations of passages of Lorem Ipsum available,
-            but the majority have suffered alteration in some form, by
-            injected humour, or randomised words which don't look even
-            slightly believable.
+            A payment gateway purpose-built for the decentralized world — combining security, flexibility, and
+            lightning-fast performance.
+          </p>
+          <p>
+            <span class="font-semibold text-secondary">HexaPay</span> is a secure, non-custodial multi-chain payment gateway built for the decentralized future. By
+            bridging
+            blockchain technology with real-world usability, HexaPay empowers individuals and businesses to accept,
+            manage, and settle crypto payments across multiple networks with ease. With a focus on speed, security, and
+            scalability, HexaPay is redefining how the world transacts in the digital age.
           </p>
 
           <!-- Download Buttons -->
@@ -238,7 +237,7 @@
         <div class="flex flex-col gap-3 items-center">
           <span class="main-gradient section-title font-medium">FEATURES</span>
           <h2 class="text-text text-2xl lg:lg:text-3xl font-bold">
-            Best photo design experience
+            HexaPay Features
           </h2>
         </div>
 
@@ -246,102 +245,90 @@
         <div class="flex flex-col lg:flex-row justify-between items-center md:mt-16 gap-16">
           <!-- Card 1 -->
           <div class="flex flex-col gap-6 justify-center items-center text-center">
-            <i class="fa-regular fa-heart text-primary fa-4x md:fa-5x"></i>
+            <i class="fa-solid fa-link text-primary fa-4x md:fa-5x"></i>
 
             <h3 class="text-xl text-secondary font-medium opacity-80">
-              Stickers
+              Multi-Chain Support
             </h3>
             <p class="text-muted text-balance">
-              It is a long established fact that a reader will be distracted
-              by the readable content of a page
+              Transact across Ethereum, BNB Chain, Solana, Polygon, Avalanche, Tron, and more — all in one platform.
             </p>
             <a href="#home" class="text-secondary underline underline-offset-5 text-xs font-medium">READ MORE</a>
           </div>
 
           <!-- Card 2 -->
           <div class="flex flex-col gap-6 justify-center items-center text-center">
-            <i class="fa-solid fa-wand-magic-sparkles text-primary fa-4x md:fa-5x"></i>
+            <i class="fa-solid fa-money-bill-transfer text-primary fa-4x md:fa-5x"></i>
 
             <h3 class="text-xl text-secondary font-medium opacity-80">
-              Effects
+              Instant Wallet-to-Wallet Transfers
             </h3>
             <p class="text-muted text-balance">
-              It is a long established fact that a reader will be distracted
-              by the readable content of a page
+              Send and receive crypto in real-time with gas-optimized transactions and confirmation tracking.
             </p>
             <a href="#home" class="text-secondary underline underline-offset-5 text-xs font-medium">READ MORE</a>
           </div>
 
           <!-- Card 3 -->
           <div class="flex flex-col gap-6 justify-center items-center text-center">
-            <i class="fa-solid fa-text-slash text-primary fa-4x md:fa-5x"></i>
+            <i class="fa-solid fa-code text-primary fa-4x md:fa-5x"></i>
 
             <h3 class="text-xl text-secondary font-medium opacity-80">
-              Text Editing
+              Developer-Friendly APIs & SDKs
             </h3>
             <p class="text-muted text-balance">
-              It is a long established fact that a reader will be distracted
-              by the readable content of a page
+              Robust REST APIs, JS SDK, and detailed documentation to plug into any product, platform, or stack.
             </p>
             <a href="#home" class="text-secondary underline underline-offset-5 text-xs font-medium">READ MORE</a>
           </div>
 
           <!-- Card 4 -->
           <div class="flex flex-col gap-6 justify-center items-center text-center">
-            <i class="fa-solid fa-retweet text-primary fa-4x md:fa-5x"></i>
+            <i class="fa-solid fa-chart-simple text-primary fa-4x md:fa-5x"></i>
 
             <h3 class="text-xl text-secondary font-medium opacity-80">
-              Share on Social
+              Real-Time Analytics Dashboard
             </h3>
             <p class="text-muted text-balance">
-              It is a long established fact that a reader will be distracted
-              by the readable content of a page
+              Track incoming/outgoing payments, transaction histories, top tokens, and user behavior with live charts.
             </p>
             <a href="#home" class="text-secondary underline underline-offset-5 text-xs font-medium">READ MORE</a>
           </div>
         </div>
       </div>
 
-      <!-- Effects and Styles -->
-      <div class="w-full flex justify-center bg-surface">
+      <!-- Why Choose Us -->
+      <div class="w-full flex justify-center bg-surface" id="whyus">
         <div class="py-20 w-11/12 md:w-10/12 max-w-[1110px] flex gap-10 justify-center items-start">
-          <div class="hidden md:flex w-4/12  justify-center items-center">
-
-            <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/showcase-5.png"
-              alt="" />
+          <div class="hidden md:flex w-4/12 justify-center items-center">
+            <img src="mobile-mockup-3.png" alt="Secure Crypto Payment" />
           </div>
           <div class="flex flex-col w-full md:w-8/12 gap-4 justify-center items-start">
             <!-- Heading -->
             <div class="flex flex-col gap-2 items-start">
-              <span class="section-title main-gradient font-medium">EFFECTS & STYLES</span>
+              <span class="section-title main-gradient font-medium">WHY CHOOSE HEXAPAY</span>
               <h2 class="text-text text-xl md:text-2xl lg:text-3xl font-bold">
-                Find Your Favorite Styles & Effects
+                Designed for Trust, Built for Scale
               </h2>
             </div>
 
             <!-- Description -->
             <div class="flex flex-col gap-3 mt-10 items-start justify-center text-wrap text-muted">
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
-                Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text,
+                HexaPay isn&apos;t just another payment gateway. We&apos;ve built our platform from the ground up
+                to serve the needs of modern businesses — from crypto-first startups to global enterprises.
+                Our non-custodial architecture, multi-chain compatibility, and lightning-fast settlement system
+                ensure you never compromise on security or speed.
               </p>
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem.
+                Whether you&apos;re integrating with DeFi apps or managing high-volume transactions,
+                HexaPay delivers reliability, transparency, and control at every touchpoint.
               </p>
             </div>
-
-            <!-- Slider -->
-            <div></div>
           </div>
         </div>
       </div>
+
     </div>
 
     <!-- FAQ -->
@@ -349,7 +336,9 @@
       <!-- Heading -->
       <div class="flex flex-col gap-2 items-center justify-start">
         <span class="section-title main-gradient font-medium">FREQUENTLY ASKED QUESTIONS</span>
-        <h2 class="text-text text-xl md:text-2xl lg:text-3xl font-bold">Questions? Look here</h2>
+        <h2 class="text-text text-xl md:text-2xl lg:text-3xl font-bold">
+          Questions? Look here
+        </h2>
       </div>
 
       <div class="flex flex-col lg:flex-row w-full justify-center items-start mt-12">
@@ -388,22 +377,20 @@
         <!-- Description -->
         <div class="flex flex-col gap-7 text-muted text-balance">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book. It has
-            survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged.
+            Choosing the right crypto payment solution shouldn&apos;t be complicated. At HexaPay, we believe in
+            transparent,
+            scalable pricing that grows with your business — whether you're just starting out or processing thousands of
+            transactions every month.
           </p>
           <p>
-            The text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled.
+            Our Pro Plan is designed for businesses and developers who need reliability, speed, and powerful
+            integrations across multiple chains. With a flat monthly rate and no hidden fees, you get access to
+            everything you need to accept crypto confidently and efficiently.
           </p>
           <ul class="flex flex-col gap-2 pricing-info-list">
             <li>24/7 SUPPORT</li>
-            <li>Social Media Integrations</li>
-            <li>Getting Started Guide</li>
+            <li>Real-time analytics</li>
+            <li>Smart contract integration</li>
           </ul>
         </div>
       </div>
@@ -412,24 +399,24 @@
       <div class="flex flex-col lg:w-1/3 justify-center items-center gap-3 main-gradient rounded-xl p-8">
         <i class="fa-solid fa-tag fa-3x text-text-secondary"></i>
         <p class="text-text-secondary text-center font-semibold">
-          Access Extra features with premium package
+          Access to everything with our Pro Plan
         </p>
 
-        <div class="flex flex-col w-full gap-3 bg-secondary p-5 rounded-lg">
+        <div class="flex flex-col w-full gap-3 bg-info p-5 rounded-lg">
           <ul class="flex flex-col gap-2 plan-list text-sm font-medium">
-            <li>Library of 1000+ styles and effects</li>
-            <li>HD Processing</li>
-            <li>No ads</li>
-            <li>1 GB Free Space</li>
-            <li>No Watermark</li>
+            <li>Unlimited crypto transactionss</li>
+            <li>Access to all supported blockchains</li>
+            <li>Custom branded checkout widgets</li>
+            <li>Smart invoicing & QR payments</li>
+            <li>Developer API & webhook access</li>
           </ul>
           <button
-            class="w-full text-center text-lg font-semibold mt-2.5 py-2.5 cursor-pointer border-[1px] bg-secondary text-text-secondary rounded-sm hover:bg-white hover:text-secondary transition-all">
-            $50 Per Month
+            class="w-full text-center text-lg font-semibold mt-2.5 py-2.5 cursor-pointer bg-secondary text-text-secondary rounded-sm hover:bg-white hover:text-secondary transition-all">
+            $29 Per Month
           </button>
           <button
-            class="w-full text-center text-lg font-semibold py-2.5 cursor-pointer border-[1px] bg-secondary text-text-secondary rounded-sm hover:bg-white hover:text-secondary transition-all">
-            $500 Per Year
+            class="w-full text-center text-lg font-semibold py-2.5 cursor-pointer bg-secondary text-text-secondary rounded-sm hover:bg-white hover:text-secondary transition-all">
+            $299 Per Year
           </button>
           <button
             class="w-full text-center text-lg font-semibold py-2.5 cursor-pointer rounded-sm button-gradient text-text-secondary transition-all">
@@ -439,19 +426,21 @@
 
         <!-- Pricing Footer -->
         <div class="flex gap-2 justify-center items-center font- text-sm">
-          <a href="/">Terms of use</a>
+          <a href="#home">Terms of use</a>
           <p>|</p>
-          <a href="/">Privacy Policy</a>
+          <a href="#home">Privacy Policy</a>
         </div>
       </div>
     </div>
 
     <!-- Team Members -->
-    <div class="w-full flex flex-col justify-center items-center pb-10">
+    <div class="w-full flex flex-col justify-center items-center pb-10" id="team">
       <!-- Heading -->
       <div class="flex flex-col gap-2 items-center justify-center mb-10">
-        <span class="section-title main-gradient font-medium">PRICING</span>
-        <h2 class="text-text text-xl md:text-2xl lg:text-3xl font-bold">Team Member</h2>
+        <span class="section-title main-gradient font-medium">Our Team</span>
+        <h2 class="text-text text-xl md:text-2xl lg:text-3xl font-bold">
+          Meet the Team
+        </h2>
       </div>
 
       <!-- Members -->
@@ -459,59 +448,55 @@
         <!-- Member 1 -->
         <div class="relative overflow-hidden max-w-xl flex-1 group">
           <figure>
-            <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/team-2.jpg"
-              alt="Team Member" class="z-0" />
+            <img src="team-1.jpg" alt="Team Member" class="z-0 aspect-square object-cover h-full w-full" />
           </figure>
           <div
             class="absolute inset-0 w-full h-full z-10 bg-gradient-to-b from-transparent to-black/30 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
             <div class="flex flex-col gap-2 p-2 left-5 absolute bottom-3.5">
-              <h3 class="text-xl font-bold">Harshad Patel</h3>
-              <p class="text-sm fon">Developer</p>
+              <h3 class="text-xl font-bold">Ethan Rivera</h3>
+              <p class="text-sm fon">Co-Founder & CEO</p>
             </div>
           </div>
         </div>
 
         <!-- Member 1 -->
-        <div class="relative overflow-hidden group  max-w-xl flex-1">
+        <div class="relative overflow-hidden group max-w-xl flex-1">
           <figure>
-            <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/team-2.jpg"
-              alt="Team Member" class="z-0" />
+            <img src="team-2.jpg" alt="Team Member" class="z-0 aspect-square object-cover h-full w-full" />
           </figure>
           <div
             class="absolute inset-0 w-full h-full z-10 bg-gradient-to-b from-transparent to-black/30 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
             <div class="flex flex-col gap-2 p-2 left-5 absolute bottom-3.5">
-              <h3 class="text-xl font-bold">Harshad Patel</h3>
-              <p class="text-sm fon">Developer</p>
+              <h3 class="text-xl font-bold">Sara Takashi</h3>
+              <p class="text-sm fon">CTO</p>
             </div>
           </div>
         </div>
 
         <!-- Member 1 -->
-        <div class="relative overflow-hidden group  max-w-xl flex-1">
+        <div class="relative overflow-hidden group max-w-xl flex-1">
           <figure>
-            <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/team-2.jpg"
-              alt="Team Member" class="z-0" />
+            <img src="team-3.jpg" alt="Team Member" class="z-0 aspect-square object-cover h-full w-full" />
           </figure>
           <div
             class="absolute inset-0 w-full h-full z-10 bg-gradient-to-b from-transparent to-black/30 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
             <div class="flex flex-col gap-2 p-2 left-5 absolute bottom-3.5">
-              <h3 class="text-xl font-bold">Harshad Patel</h3>
-              <p class="text-sm fon">Developer</p>
+              <h3 class="text-xl font-bold">Dev Mehta</h3>
+              <p class="text-sm fon">Head of Product</p>
             </div>
           </div>
         </div>
 
         <!-- Member 1 -->
-        <div class="relative overflow-hidden group  max-w-xl flex-1">
+        <div class="relative overflow-hidden group max-w-xl flex-1">
           <figure>
-            <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/team-2.jpg"
-              alt="Team Member" class="z-0" />
+            <img src="team-4.jpg" alt="Team Member" class="z-0 aspect-square object-cover h-full w-full" />
           </figure>
           <div
             class="absolute inset-0 w-full h-full z-10 bg-gradient-to-b from-transparent to-black/30 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-in-out">
             <div class="flex flex-col gap-2 p-2 left-5 absolute bottom-3.5">
-              <h3 class="text-xl font-bold">Harshad Patel</h3>
-              <p class="text-sm fon">Developer</p>
+              <h3 class="text-xl font-bold">Isabella Chen</h3>
+              <p class="text-sm fon">Lead Blockchain Engineer</p>
             </div>
           </div>
         </div>
@@ -531,7 +516,6 @@
 
         <!-- Slider Wrapper -->
         <div class="flex justify-center items-center flex-col md:flex-row">
-
           <button
             class="hidden md:block bg-white h-full z-10 text-primary text-3xl p-2 hover:text-info prevTestimonial">
             <i class="fa-solid fa-arrow-left"></i>
@@ -540,9 +524,7 @@
           <!-- Testimonial  -->
           <div class="overflow-hidden flex flex-col justify-center items-center w-full">
             <div id="testimonial-track" class="flex transition-transform duration-500 ease-in-out w-full">
-
               <!-- Testimonials Added From /src/testimonial.js file -->
-
 
               <!-- <div class="min-w-full px-6 flex flex-col items-center text-center gap-4">
               <p class="text-text opacity-80 max-w-4xl italic text-xl font-medium px-5">
@@ -558,16 +540,13 @@
 
             <!-- Arrows -->
             <div class="flex justify-center md:hidden w-full h-full gap-4">
-
               <button class="bg-white h-full text-primary text-3xl p-2 hover:text-info prevTestimonial">
                 <i class="fa-solid fa-arrow-left fa-lg"></i>
               </button>
-              <button class=" bg-white h-full text-primary text-3xl p-2 hover:text-info nextTestimonial">
+              <button class="bg-white h-full text-primary text-3xl p-2 hover:text-info nextTestimonial">
                 <i class="fa-solid fa-arrow-right fa-lg"></i>
               </button>
             </div>
-
-
           </div>
           <button
             class="hidden md:block bg-white z-10 h-full text-primary text-3xl p-2 hover:text-info nextTestimonial">
@@ -577,35 +556,30 @@
       </div>
     </div>
 
-
-
     <!-- Download Apps Section -->
-
     <div class="w-full py-20 bg-surface flex justify-center">
       <div
         class="w-11/12 md:w-10/12 max-w-[1110px] flex flex-col md:flex-row justify-center items-center gap-3 -mt-40 md:mt-0">
         <div class="flex w-4/12 justify-center md:-my-40">
-          <img src="https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/download.png"
-            alt="Download App">
+          <img src="mobile-mockup-3.png" alt="Download App" />
         </div>
 
-        <div class="flex flex-col w-10/12 md:w-8/12 justify-center gap-2.5 items-start">
-
+        <div class="flex flex-col w-10/12 md:w-8/12 justify-center gap-2.5 md:items-start">
           <!-- Heading -->
-          <div class="text-start mb-3.5">
+          <div class="text-start mb-1">
             <h2 class="text-secondary text-2xl lg:text-3xl font-bold mt-2">
-              Get the app now
+              Ready to Get Started?
             </h2>
           </div>
 
           <!-- Description -->
-          <p class="text-sm font-medium text-muted mb-6 text-balance">Lorem Ipsum is simply dummy text of the printing
-            and typesetting industry. Lorem Ipsum has been
-            the industry's standard dummy text ever since.</p>
-
+          <p class="text-sm font-medium text-muted mb-6 ">
+            Download the HexaPay app and manage your crypto payments on the go. Whether you're accepting payments or
+            tracking real-time settlements, our mobile interface gives you full control — anytime, anywhere.
+          </p>
 
           <!-- Download Buttons -->
-          <div class="flex gap-2 flex-wrap">
+          <div class="flex gap-2 flex-wrap justify-center">
             <!-- App Store -->
             <button
               class="flex justify-center items-center gap-2 button-gradient py-2 px-5 rounded-full text-white cursor-pointer">
@@ -627,22 +601,20 @@
             </button>
           </div>
 
-          <h4 class="mt-7 text-sm text-muted">
-            <a href="#" class="text-lg font-semibold text-text underline">Get Started</a>
+          <h4 class="mt-7 text-sm text-muted text-center">
+            <a href="#pricing" class="text-lg font-semibold text-text underline">Get Started</a>
             for free or
-            <a href="#" class="text-lg font-semibold text-text underline">view pricing</a>
+            <a href="#pricing" class="text-lg font-semibold text-text underline">view pricing</a>
           </h4>
         </div>
-
       </div>
     </div>
-
 
     <!-- Footer -->
     <footer class="flex w-full justify-center py-24">
       <div class="w-10/12 max-w-[1110px] flex flex-col justify-center items-center gap-1.5">
         <!-- Logo -->
-        <img src="	https://html.awaikenthemes.com/appiest/5-photo-editing-app-template/images/footer-logo.png" alt="">
+        <img src="logo-name.png" alt="HexaPay" class="max-w-[200px] w-1/2 object-cover" />
 
         <!-- Links -->
         <div
@@ -650,7 +622,7 @@
           <a href="#">Privacy Policy</a>
           <a href="#">License</a>
           <a href="#">Terms & Conditions</a>
-          <a href="#">Team</a>
+          <a href="team">Team</a>
           <a href="#">Career</a>
         </div>
 
@@ -665,9 +637,12 @@
 
         <!-- End Line -->
         <div class="flex flex-col gap-2 text-center text-muted">
-          <p>Lorem Ipsum is simply dummy text of the printing</p>
-          <p>Desiged by <span class="hover:text-primary transition-all underline cursor-pointer">LifeLinkr</span> with
-            love & Smile</p>
+          <p></p>
+          <p>
+            Desiged by
+            <span class="hover:text-primary transition-all underline cursor-pointer">DA</span>
+            with love & Smile
+          </p>
         </div>
       </div>
     </footer>
